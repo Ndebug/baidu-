@@ -1,0 +1,57 @@
+.content{
+    background: white;
+    border: 1px solid #999;
+    padding: 20px;
+    height:auto;
+    position: relative;
+    width:auto;
+    display: inline-block;
+}
+.content p{
+    margin-top: -5px;
+}
+
+#refuse{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #999;
+    display: inline-block;
+    float: left;
+
+
+}
+#content{
+
+     margin-left: 20px;
+    border: 1px solid #999;
+    padding: 20px   ;
+     width: auto;
+    display:inline-block;
+
+}
+#person{
+     float: right;
+    display:inline;
+
+    margin-left: 20px;
+    border: 1px solid #999;
+    width: 120px;
+    height: auto;
+    display:inline-block;
+    background: white;
+}
+#person img{
+   margin: 20px;
+]}
+img{
+    background: #eee;
+    width: 80px;
+    height: 80px;
+
+
+}
+.name{
+    float: right;
+
+}
