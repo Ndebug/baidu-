@@ -1,0 +1,440 @@
+body{
+    margin: 0;
+}
+    <!--头部导航区-->
+.head_nav{
+    width: 100%;
+    width: 100px;
+    background: black;
+            clear: both;
+}
+<!--头部导航区左侧-->
+.left_part{
+    float: left;
+    display:inline;
+    width: 200px;
+        clear: both;
+
+}
+#nav_img{
+    float: left;
+    position: relative;
+    right:-50px;
+    margin: 16px 0 ;
+}
+#newworld{
+    font-size: 20px;
+    font-family:黑体;
+    float: left;
+    position: relative;
+    right:-50px;
+    margin: 25px 5px;
+}
+<!--头部导航区右侧-->
+.right_part{
+    float: right;
+    display: inline;
+    width: 600px;
+    clear: both;
+}
+.nav_text{
+    float: right;
+    margin: 20px 20px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.nav_text:last-child{
+    color: #e74f4d;
+      padding-bottom: 20px ;
+   border-bottom: 3px solid red;
+}
+.nav_sign{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+       background: url("source/nav_photo.jpg") center no-repeat;
+
+    padding-left:55px;
+    position: relative;
+    left:-30px;
+    top:5px;
+    color: #ea6f6e;
+
+}
+<!--大图区-->
+    .big_picture{
+        width: 100%;
+        height: 500px;
+     clear: both;
+
+     float: left;
+
+    }
+      .picture_background{
+          clear: both;
+          width: 100%;
+          height: 500px;
+          background:url("source/big_picture.jpg") no-repeat
+      }
+      /*
+      <!--大图区 文字部分-->
+      */
+
+  #picture_text_1{
+      font-size: 48px;
+      color: #ffffff;
+      font-family: 黑体;
+      margin: 0 16px;
+      font-weight: bold;
+      position: relative;
+       left: 50px;
+      top: 150px;
+  }
+#picture_text_2{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 微软雅黑;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    margin: 16px 16px;
+
+}
+#picture_botton{
+     width: 200px;
+     height: 30px;
+    font-size: 24px;
+    color: #ffffff;
+     background: #e74f4d;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    margin:0 16px;
+    text-align:center ;
+       padding:15px 0 ;
+
+}
+    /*
+     icon 图文部分
+      */
+.sige{
+    width: 1144px;
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.sige_details{
+    float: left;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+     border-right:2px solid #bbbbbb ;
+}
+.sige_details p{
+    color: #8d8d8d;
+}
+.sige_details:last-child{
+     border: none;
+}
+/*
+     关于新世界你还知道什么？
+ */
+.aboutnew{
+    clear: both;
+     width: 1144px;
+     height: 300px;
+    background: #edecec;
+}
+.aboutnew p{
+    text-align: center;
+    font-size: 48px;
+    font-family: 黑体;
+    color: #a1a1a1;
+    position: relative;
+    top: 40%;
+    margin: 0;
+}
+/*
+   城市选择
+ */
+.city_select{
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background: url("source/background1.jpg") no-repeat;
+    width: 100%;
+}
+.city_select select,button{
+    color: #787878;
+    background: white;
+    width: 15%;
+    float: left;
+    position: relative;
+    left: 10%;
+    top: 60%;
+    margin: 0 30px;
+    padding:7.5px 0;
+    border: 1px solid red;
+
+}
+.city_select  p{
+
+    position: relative;
+    left: 35%;
+    top: 40%;
+
+
+}
+.city_select button{
+    background: red;
+    color: #ffffff;
+    font-size: 17px ;
+    letter-spacing: 15px;
+    border: none;
+}
+.city_select option{
+    background: #e3e3e4;
+
+}
+#city_1st{
+    font-size: 32px;
+    color: #ffffff;
+
+}
+#city_2st{
+    font-size: 16px;
+    color: #f4f0ee;
+    position: relative;
+    left: 33%;
+    top: 40%;
+    margin:0;
+}
+/*城市活动*/
+.city_activity{
+    width: 100%;
+    height: 500px;
+    background: #f7f7f7;
+
+   
+}
+.city_activity div>img{
+
+
+
+    border:5px solid white;
+}
+
+.city_activity div{
+    float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    top:10%;
+}
+#sh_text{
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 25px;
+    font-family: 黑体;
+    font-weight: bold;
+}
+.city_text{
+    font-size: 18px;
+    font-family: 黑体;
+
+}
+.city_text2{
+    font-size: 16px;
+    color: #818181;
+}
+/*新世界time*/
+.new_time{
+    clear: both;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+#time_tu{
+    float: left;
+}
+#time_wen{
+    float: left;
+}
+.time_hand{
+    font-size: 18px;
+    font-family: 黑体;
+    font-weight: bold;
+    text-align: center;
+
+}
+#time_wen1{
+    color: red;
+    font-size: 20px;
+}
+#time_body{
+    color: #d4d4d4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#time_wen{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+#time_more{
+    width: 100px;
+    font-weight: bold;
+    color: #e6797c;
+    position: relative;
+    left: 25%;
+   margin-top: 50px;
+}
+/*爱生活 三栏布局*/
+.love_life{
+    height: 300px;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+#life_left{
+    float: left;
+    background: #e74f4d;
+    height: 400px;
+    width:33%;
+    text-align: center;
+
+}
+#life_center{
+    float: left;
+    height: 400px;
+    width:33%;
+    text-align: center;
+}
+#life_right{
+     float: left;
+    background: url("source/love_live.jpg");
+    height: 400px;
+    width:33%;
+}
+#life_leftt{
+    position: relative;
+    top: 30%;
+    color: #ffffff;
+    font-size: 21px;
+}
+#life_lfetb{
+    position: relative;
+    left: 30%;
+    width: 150px;
+   top: 35%;
+    border: 1px solid white;
+     color: white;
+    background: #e74f4d;
+}
+#life_centert{
+    position: relative;
+    top: 30%;
+    font-size: 21px;
+
+}
+#life_centerb{
+    position: relative;
+    left: 30%;
+    width: 150px;
+    top: 35%;
+    border: 1px solid #e74f4d;
+    color: #e74f4d;
+
+}
+/*志愿者*/
+.volunteer{
+    width: 80%;
+    height: 500px;
+    clear: both;
+}
+.become_vol{
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    top: 15%;
+}
+.vol_left{
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+.vol_right{
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+.vol_hand{
+    font-family: 黑体;
+
+}
+.vol_left p{
+    color: #adabab;
+    font-size: 12px;
+    margin: 50px 0;
+}
+form label{
+    width: 100px;
+    background: red;
+    line-height: 50px;
+}
+.input{
+    border: none;
+    outline: none;
+    background: #ededee;
+    margin: 10px 20px;
+     width: 200px;
+    padding: 7.5px 0;
+    padding-left: 20px;;
+}
+#dream{
+    border: none;
+    background: #ededee;
+    width: 480px;
+    position:relative;
+    left: 3.5%;
+    font-family:黑体;
+    color: #b4b2b3;
+}
+#vol_rbut{
+    border: none;
+    background: #ededee;
+    width: 490px;
+    height: 35px;
+    margin: 10px 0;
+    position:relative;
+    left: 3.5%;
+    outline: none;
+}
+#become_1{
+     font-size: 21px;
+    margin: 0;
+ }
+#become_2{
+    color: red;
+    margin: 0;
+}
+#become_3{
+    color: #b7b7b7;
+    font-size: 12px;
+}
+/*最后的烂尾*/
+.end{
+        width: 100%;
+        height: 500px;
+        clear: both;
+    background: url("source/end.jpg");
+    position: relative;
+    top: 20%;
+}
