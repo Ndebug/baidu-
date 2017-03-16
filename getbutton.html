@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取输入框中的值</title>
+</head>
+<body>
+<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+<button id="button" onclick="getvalue()">确认填写</button>
+
+<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+<script type="text/javascript">
+     /*目标：获取input中的值,并替换为span的值
+     * 步骤：1.获得input对象，并取得他的值
+     *        2.获得 span的对象，给Button设置一个点击事件
+     *          点击后将span的值换成input的值
+     * */
+            function getvalue() {
+                var input_value = document.getElementById("aqi-input");
+                var span_api=document.getElementById("aqi-display");
+
+                        span_api.innerText=input_value.value;
+
+
+
+            }
+
+
+</script>
+</body>
+</html>
